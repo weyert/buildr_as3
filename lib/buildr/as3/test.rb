@@ -25,5 +25,6 @@ require "buildr"
 require File.dirname(__FILE__) + '/test/base'
 require File.dirname(__FILE__) + '/test/flexunit4'
 
-Buildr::TestFramework << Buildr::AS3::Test::FlexUnit4
+Buildr::TestFramework << Buildr::AS3::Test::AsUnit4
+#Buildr::TestFramework << Buildr::AS3::Test::FlexUnit4
 
